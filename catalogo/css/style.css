@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0e7ff;
+}
+
+header {
+    color: white;
+    width: 100%;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #4f46e5, #1e1b4b);
+    height: 130px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header p {
+
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    margin: 4px;
+}
+
+nav li:hover,
+nav a:hover {
+    margin: 0 0 -2px 0;
+    color: white;
+    background-image: linear-gradient(to bottom, #6366f1, #4f46e5);
+    transform: scale(1.2);
+    border-radius: 3px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+}
+
+#container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.box {
+    border-radius: 5px;
+    background-color: #4e46e531;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    object-fit: contain;
+}
+
+.box img {
+    max-width: 120px;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #4f46e5, #1e1b4b);
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: white;
+}
+
+#container2 {
+    margin-right: 0px;
+    max-width: 800px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.box1 {
+    object-fit: contain;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #4e46e531;
+    padding: 20px;
+    margin: 5px 0px 0px -10px;
+}
+
+.box2 {
+    object-fit: contain;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #4e46e531;
+    padding: 20px;
+    margin: 5px 0px 0px -10px;
+}
+
+.descprod {
+    color: black;
+    margin-bottom: 90px;
+    font-size: 1.2em;
+}
+
+.valorprod {
+    color: black;
+    margin-bottom: 90px;
+    font-size: 1.5em;
+}
+
+.buton1 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-size: 1em;
+    width: 250px;
+    height: 50px;
+    background-color: #4e46e583;
+    color: white;
+    border: none;
+    margin: auto;
+    border-radius: 7px;
+    transition: all linear 300ms;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.07);
+    transition-duration: 300ms;
+    background-color: #4e46e5;
+}
+
+#catalogo {
+    min-height: 701px;
+}

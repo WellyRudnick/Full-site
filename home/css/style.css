@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.pnews {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.pmorenews {
+    margin: 5px;
+    padding: 3px;
+    line-height: 1.5;
+}
+
+.pmorenews:hover {
+    transform: scale(1.05);
+}
+
+body {
+    background-color: #e0e7ff;
+    
+}
+
+header {
+    color: white;
+    width: 100%;
+    /* min-width: 1024px; */
+    margin: auto;
+    background-image: linear-gradient(to bottom, #4f46e5, #1e1b4b);
+    height: 130px;
+    text-align: center; 
+    padding-top: 20px;
+    
+}
+
+header p {
+    
+    text-align: center !important; 
+}
+
+nav {
+    
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    margin: 4px;
+}
+
+nav li:hover, nav a:hover {
+    margin: 0 0 -2px 0;
+    color: white;
+    background-image: linear-gradient(to bottom, #6366f1, #4f46e5);
+    transform: scale(1.2);
+    border-radius: 3px;
+}
+
+main {
+    width: 920px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#news {
+    border-radius: 7px;
+    display: block;
+    margin: 0 20px 20px 0;
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+}
+
+#morenews {
+    border-radius: 7px;
+    background-color: white;
+    padding: 15px;
+    width: 240px;
+}
+
+.clear {
+    clear: both;
+}
+
+#box {
+    margin: 0 auto;
+    display: flex;
+}
+
+.datepost {
+    margin-bottom: 20px;
+}
+
+footer, footer a {
+    width: 100%;
+    /* min-width: 1024px; */
+    background-image: linear-gradient(to bottom, #4f46e5, #1e1b4b);
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#post {
+    display: block;
+}
